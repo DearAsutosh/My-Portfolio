@@ -74,7 +74,7 @@ const SkillsSection = () => {
       <img src={smallSeparator} alt="" className="absolute top-0 left-0 w-full h-[80px] md:hidden" />
 
       <div className="text-white mt-24 md:mt-36 mb-12">
-        <h1 className="text-2xl md:text-5xl font-bold mb-3">I don’t just know tech,</h1>
+        <h1 className="text-4xl md:text-7xl font-extrabold mb-3">I don’t just know tech,</h1>
         <h2 className="text-lg md:text-2xl">
           I bend it to build{" "}
           <span className="text-yellow-300 underline underline-offset-4">
@@ -84,22 +84,22 @@ const SkillsSection = () => {
       </div>
 
       <section className="mb-8 text-left">
-        <h2 className="text-white text-xl md:text-3xl font-semibold mb-2">Frontend Technologies</h2>
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-2">I create visual magic with :</h2>
         {renderCapsules(frontendSkills)}
       </section>
 
       <section className="mb-8 text-left">
-        <h2 className="text-white text-xl md:text-3xl font-semibold mb-2">Backend Tools</h2>
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-2">Brain behind the Beauty :</h2>
         {renderCapsules(backendSkills)}
       </section>
 
       <section className="mb-8 text-left">
-        <h2 className="text-white text-xl md:text-3xl font-semibold mb-2">Programming Languages</h2>
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-2">DNA of My Creations :</h2>
         {renderCapsules(programmingSkills)}
       </section>
 
       <section className="mb-8 text-left">
-        <h2 className="text-white text-xl md:text-3xl font-semibold mb-2">Tools & Technologies</h2>
+        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-2">Fuels to my Flow :</h2>
         {renderCapsules(toolsSkills)}
       </section>
     </div>
