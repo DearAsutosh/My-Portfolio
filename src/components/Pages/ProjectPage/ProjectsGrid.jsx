@@ -7,25 +7,29 @@ const ProjectsGrid = () => {
             id: 1,
             title: "DigiDine – Built to Serve 🍽️",
             description: "Smart restaurant system. Faster orders. Smoother bills.",
-            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/Screenshot%202025-04-04%20195252.png?updatedAt=1753306692220"
+            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/Screenshot%202025-04-04%20195252.png?updatedAt=1753306692220",
+            url:"https://github.com/DearAsutosh/DigiDine-Restaurant-Management-System"
         },
         {
             id: 2,
             title: "🧠 Zara - personalized voice Assistant",
             description: "Your personal voice assistant. Not a gimmick. A game-changer.",
-            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/zara.png?updatedAt=1753306542236"
+            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/zara.png?updatedAt=1753306542236",
+            url:"https://zara-assistant.netlify.app/"
         },
         {
             id: 3,
             title: "CarbonOut - Innovation Meets Sustainability 🌿",
             description: "A smart paver startup making sustainability walkable.",
-            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/carbonout.png?updatedAt=1753306543159"
+            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/carbonout.png?updatedAt=1753306543159",
+            url:"https://shop-carbonout.netlify.app/"
         },
         {
             id: 4,
             title: "🌊 VS Code, Now on Steroids.",
             description: "A dark theme that hits like a dopamine shot — sharp, sleek, surgical.",
-            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/theme?updatedAt=1753307684099"
+            imageUrl: "https://ik.imagekit.io/DearAsutosh/Projects/theme?updatedAt=1753307684099",
+            url:"https://marketplace.visualstudio.com/items?itemName=AsutoshSahoo.devsena-dark"
         },
 
     ];
@@ -63,9 +67,11 @@ const ProjectsGrid = () => {
                         </div>
 
                         {/* Button - appears on hover */}
+                        <a target='_blank' href={project.url}>
                         <button className="px-6 py-2.5 border font-medium rounded-full opacity-0 group-hover:opacity-100 transform translate-y-5 group-hover:translate-y-0 transition-all duration-300 hover:scale-105 hover:bg-purple-950 hover:text-white shadow-md">
                             Explore Details <Github className='inline-block ml-2' />
                         </button>
+                        </a>
                     </div>
                 </div>
             ))}
